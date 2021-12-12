@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/tab_lt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_tab_lt"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/background_lt" />
+
+        <TextView
+            android:id="@+id/text_wx_lt"
+            android:gravity="center"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:text="微信" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_txl"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_tab_txl"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/background_txl" />
+
+        <TextView
+            android:id="@+id/text_wx_txl"
+            android:gravity="center"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:text="通讯录" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_fx"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_tab_fx"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/background_fx" />
+
+        <TextView
+            android:id="@+id/text_wx_fx"
+            android:gravity="center"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:text="发现" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_wd"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_tab_wd"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/background_wd" />
+
+        <TextView
+            android:id="@+id/text_wx_wd"
+            android:gravity="center"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:text="我的" />
+    </LinearLayout>
+
+</LinearLayout>
