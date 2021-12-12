@@ -10,9 +10,9 @@
         android:id="@+id/f_textView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"
         android:gravity="center"
-        android:textSize="32sp"
-        android:textColor="@color/purple_500"/>
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/purple_500"
+        android:textSize="32sp" />
 
 </FrameLayout>

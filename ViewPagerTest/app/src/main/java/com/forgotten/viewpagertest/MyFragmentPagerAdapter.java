@@ -21,6 +21,7 @@ public class MyFragmentPagerAdapter extends FragmentStateAdapter {
      * 存放实例化的fragment列表；方便切换
      */
     List<Fragment> fragmentList = new ArrayList<>();
+
     public MyFragmentPagerAdapter(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle, List<Fragment> fragments) {
         super(fragmentManager, lifecycle);
         // 对fragment列表进行赋值

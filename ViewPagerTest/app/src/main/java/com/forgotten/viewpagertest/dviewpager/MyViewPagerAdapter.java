@@ -10,8 +10,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.forgotten.viewpagertest.R;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,7 +35,7 @@ public class MyViewPagerAdapter extends RecyclerView.Adapter<MyViewPagerAdapter.
 
     @NonNull
     @Override
-    public ViewPagerViewHolder  onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ViewPagerViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         // 加载布局，新建一个自定义ViewHolder
         ViewPagerViewHolder viewPagerViewHolder = new ViewPagerViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_viewpager, parent, false));
         return viewPagerViewHolder;
@@ -56,7 +54,7 @@ public class MyViewPagerAdapter extends RecyclerView.Adapter<MyViewPagerAdapter.
         return 5;
     }
 
-    class ViewPagerViewHolder extends RecyclerView.ViewHolder{
+    class ViewPagerViewHolder extends RecyclerView.ViewHolder {
         TextView tvPager;
 
         public ViewPagerViewHolder(@NonNull View itemView) {

@@ -1,13 +1,12 @@
 package com.forgotten.viewpagertest;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
 
 
 public class BlankFragment extends Fragment {
@@ -45,7 +44,7 @@ public class BlankFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // 当根布局为空的时候才进行获得值
-        if(null ==rootView){
+        if (null == rootView) {
             rootView = inflater.inflate(R.layout.fragment_blank, container, false);
         }
         initViews();

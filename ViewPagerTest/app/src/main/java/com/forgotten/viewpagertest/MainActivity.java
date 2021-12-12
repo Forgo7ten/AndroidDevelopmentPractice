@@ -58,18 +58,18 @@ public class MainActivity extends AppCompatActivity {
                 switch (view.getId()) {
                     case R.id.tab_lt:
                         // 设置第二个参数可以让其不经过中间页面
-                        viewpager.setCurrentItem(0,false);
+                        viewpager.setCurrentItem(0, false);
                         break;
                     case R.id.tab_txl:
-                        viewpager.setCurrentItem(1,false);
+                        viewpager.setCurrentItem(1, false);
 
                         break;
                     case R.id.tab_fx:
-                        viewpager.setCurrentItem(2,false);
+                        viewpager.setCurrentItem(2, false);
 
                         break;
                     case R.id.tab_wd:
-                        viewpager.setCurrentItem(3,false);
+                        viewpager.setCurrentItem(3, false);
 
                         break;
                 }

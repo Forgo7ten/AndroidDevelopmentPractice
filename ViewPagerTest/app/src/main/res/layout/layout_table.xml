@@ -20,9 +20,9 @@
 
         <TextView
             android:id="@+id/text_wx_lt"
-            android:gravity="center"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="微信" />
     </LinearLayout>
 
@@ -42,9 +42,9 @@
 
         <TextView
             android:id="@+id/text_wx_txl"
-            android:gravity="center"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="通讯录" />
     </LinearLayout>
 
@@ -64,9 +64,9 @@
 
         <TextView
             android:id="@+id/text_wx_fx"
-            android:gravity="center"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="发现" />
     </LinearLayout>
 
@@ -86,9 +86,9 @@
 
         <TextView
             android:id="@+id/text_wx_wd"
-            android:gravity="center"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="我的" />
     </LinearLayout>
 
