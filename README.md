@@ -6,8 +6,10 @@
 
 
 
-|        项目        |        描述        |
-| :----------------: | :----------------: |
-|   ViewPagerTest    |   ViewPager2使用   |
-| MaterialDesignTest | MaterialDesign使用 |
+|                             项目                             |               描述                |
+| :----------------------------------------------------------: | :-------------------------------: |
+| [ViewPagerTest](https://github.com/Forgo7ten/AndroidDevelopmentPractice/tree/main/ViewPagerTest) |          ViewPager2使用           |
+| [MaterialDesignTest](https://github.com/Forgo7ten/AndroidDevelopmentPractice/tree/main/MaterialDesignTest) |        MaterialDesign使用         |
+| [LPermissionRequest](https://github.com/Forgo7ten/LPermissionRequest) | 初级学习写的Android权限动态申请库 |
+| [FirstJni](https://github.com/Forgo7ten/AndroidReversePractice/tree/main/FirstJni) |         NDK开发：Jni实践          |
 
